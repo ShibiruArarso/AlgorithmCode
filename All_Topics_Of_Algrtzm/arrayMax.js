@@ -1,3 +1,4 @@
+//! this return max from Array
 function arrMax(arr) {
    let size = arr.length;
    let currMax = arr[0];
