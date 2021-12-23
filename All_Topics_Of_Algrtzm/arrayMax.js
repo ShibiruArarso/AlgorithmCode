@@ -10,5 +10,7 @@ function arrMax(arr) {
    return currMax;
 }
 let a = [2, 1, 1, 0, 2, 5, 4, 0, 2, 8, 7, 7, 9, 2, 0, 1, 9];
-//! this output is the max from the array!!
+
+//! this output is the max from the array!!!
+
 console.log(arrMax(a));
