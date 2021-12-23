@@ -12,5 +12,7 @@ function arrMax(arr) {
 let a = [2, 1, 1, 0, 2, 5, 4, 0, 2, 8, 7, 7, 9, 2, 0, 1, 9];
 
 //! this output is the max from the array!!!
+//! test merging branch
+let z = "merging branch from branch ot master";
 
 console.log(arrMax(a));
