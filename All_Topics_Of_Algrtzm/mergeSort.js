@@ -3,13 +3,11 @@ function mergeSort(arr) {
    if (leng == 1) {
       return arr;
    }
-   let mid = Math.ceil(leng / 2);
-   let leftAr = arr.slice(0, mid);
-   let rightAr = arr.slice(mid, leng);
-   mergeSort(leftAr);
-   mergeSort(rightAr);
-   let sendToMerge = merge(leftAr, rightAr);
-   return sendToMerge;
+   let mid = Math.floor(leng / 2);
+   let leftAr = mergeSort(arr.slice(0, mid));
+   let rightAr = mergeSort(arr.slice(mid));
+
+   return merge(leftAr, rightAr);
 }
 
 function merge(a, b) {
