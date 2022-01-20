@@ -1,7 +1,7 @@
 function selectionSort(arr) {
-   let size = arr.length;
-   for (let i = 0; i < size; i++) {
-      for (let j = i + 1; j < size - 1; j++) {
+   let n = arr.length;
+   for (let i = 0; i < n; i++) {
+      for (let j = i + 1; j < n - 1; j++) {
          if (arr[j] < arr[i]) {
             let tmp = arr[i];
             arr[i] = arr[j];
